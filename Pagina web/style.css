@@ -8,6 +8,10 @@
     background-color: beige;
     
 }
+
+body{
+    background-color: beige;
+}
 nav{
     font-size: 10px;
     background-color: darksalmon;
@@ -107,23 +111,6 @@ align-items: center;
 font-size: large;
 }
 
-#nav2{
-    font-size: 10px;
-    background-color:darksalmon;
-    text-decoration: none;
-    color: black;
-    height: 30px;
-    flex-flow: row;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    gap: 10px;
-}
-#h21{
-        background-color:darksalmon;
-        width: fit-content;
-        border-radius: 2px;
-}
 #divi{
     display: flex;
     gap: 10px;
@@ -138,7 +125,7 @@ font-size: large;
 }
 
 #servicios{
-
+    margin: 3px;
     text-align: center;
 }
 main .card-img-top {
@@ -149,6 +136,7 @@ main .card-img-top {
 main section {
     display: flex;
     flex-flow: row wrap;
+    margin: 0px;
 }
 #a{
     background-color: darksalmon;
@@ -163,4 +151,135 @@ h5{
     flex-flow: row wrap;
     display: flex;
     justify-content: center;
+}
+
+#nombres{
+    flex-flow: row wrap;
+    text-align: left;
+    align-items: center;
+    justify-content: left;
+    background-color: beige;
+}
+
+#nombre{
+    width: min-content;
+}
+
+#email{
+    flex-flow: row wrap;
+    text-align: left;
+    align-items: center;
+    justify-content: left;
+    height: max-content;
+}
+#exampleInputEmail1{
+    width: min-content;
+}
+
+#mensaje{
+    flex-flow: row wrap;
+    text-align: left;
+    align-items: center;
+    justify-content: left;
+    height: max-content;
+}
+#floatingTextarea{
+    width: min-content;
+}
+#boton{
+    flex-flow: row wrap;
+    text-align: left;
+    align-items: center;
+    justify-content: left;
+    height: max-content;
+}
+
+footer{
+    background-color:beige;
+}
+
+#divs{
+    display: flex;
+    margin: 1px;
+}
+
+#fot{
+    justify-content: center;
+    align-items: baseline;
+    text-align: left;
+    background-color: beige;
+    display: flex;
+    height: 10px;
+}
+
+#amor{
+    font-size: 10px;
+    height: 10px;
+    
+}
+
+#imigi{
+    width: 90px;
+    height: 90px;
+}
+
+#listas{
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    
+}
+
+
+#d1{
+    text-align: left;
+    background-color: beige;
+    width: fit-content;
+    font-size: 9px;
+}
+
+#dt{
+background-color: darksalmon;
+}
+u{
+    background-color: darksalmon;
+    margin: 10px;
+}
+
+#p{
+    height: 20px;
+    text-align: right;
+    margin: 0px;
+}
+
+#buton{
+   background-color: darksalmon;
+   border-color: darksalmon; 
+}
+
+#trayectoria{
+    display: flex;
+    align-items: center;
+}
+
+#albertita{
+    width: 250px;
+    height: 250px;
+}
+
+#ini{
+    font-size: xx-small;
+    text-align: left;
+    background-color: darksalmon;
+}
+#wini{
+    font-size: xx-small;
+    text-align: left;
+    background-color: beige;
+}
+#derechos{
+    text-align: left;
+    height: 20px;
+    margin: 0px;
 }
